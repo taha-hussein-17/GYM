@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- ============ start setting box  =================  -->
+    <div class="setting-box ">
+        <div class="box-toggle">
+            <i class="fab fas fa-cog"></i>
+        </div>
+        <div class="setting-container">
+            <div class="optoin-box">
+                <h4>colors: </h4>
+                <p></p>
+                <ul class="colors-list">
+                    <li class="active" data-color="#ff9800"></li>
+                    <li data-color="#a00"></li>
+                    <li data-color="#0aff"></li>
+                    <li data-color="rgb(4, 109, 14)"></li>
+                    <li data-color="#90f"></li>
+                </ul>
+            </div>
+            <div class="optoin-box">
+                <h4>random background: </h4>
+                <p></p>
+                <div class="random-backgrounds">
+                    <span class="yes active" data-background="yes">yes</span>
+                    <span class="no" data-background="no">no</span>
+                </div>
+            </div>
+            <div class="optoin-box">
+                <h4>show bullets: </h4>
+                <p></p>
+                <div class="show-bullets">
+                    <span class="yes active" data-display="show">show</span>
+                    <span class="no" data-display="hide">hide</span>
+                </div>
+            </div>
+            <button class=".btn btn-danger reset-options">reset options</button>
+        </div>
+    </div>
+    <!--/////////////  end setting box  ///////////////////-->
+    <!-- start nav bullets -->
+    <div class="nav-bullets">
+        <div class="bullets" data-section="#home">
+            <div class="tooltp">home</div>
+        </div>
+        <div class="bullets" data-section="#about">
+            <div class="tooltp">about us</div>
+        </div>
+        <div class="bullets" data-section="#our-skills">
+            <div class="tooltp">our skills</div>
+        </div>
+        <div class="bullets" data-section="#our-gallery">
+            <div class="tooltp">gallery</div>
+        </div>
+        <div class="bullets" data-section="#timeline">
+            <div class="tooltp">timeline</div>
+        </div>
+        <div class="bullets" data-section="#featurse">
+            <div class="tooltp">afeaturse</div>
+        </div>
+        <div class="bullets" data-section="#testimonials">
+            <div class="tooltp">testimoials</div>
+        </div>
+        <div class="bullets" data-section="#contact">
+            <div class="tooltp">contact</div>
+        </div>
+    </div>
+    <!-- end nav bullets -->
+    <!--=================== start header ====================-->
+    <header id="home">
+        <div class="landing-page">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="header-side">
+                    <div class="logo-area ">
+                        <img src="images/fitness-gym-logo-9191CD4CF2-seeklogo.com.png" class="" height="40" alt="">
+                        FITNESS
+                    </div>
+                    <div class="links-container">
+                        <ul class="header-links">
+                            <li><a href="#about" class="active">about</a></li>
+                            <li><a href="#our-skills">skills</a></li>
+                            <li><a href="#our-gallery">gallery</a></li>
+                            <li><a href="#timeline">timeline</a></li>
+                            <li><a href="#featurse">featurse</a></li>
+                            <li><a href="#testimonials">testimonials</a></li>
+                            <li><a href="#contact">contact</a></li>
+                            <!-- <div class="header-form">
+                                                    <form action="">
+                                                        <button class="btn btn-dafault"><a href="login.html"><i
+                                                                    class="me-2 fab fas fa-user-alt fs-5 ">
+                                                                </i></a>login</button>
+                                                    </form>
+                                                </div> -->
+                            <!-- هعملها صفحة دخول لوحديها -->
+                        </ul>
+                        <button class="btn btn-dafualt">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="welcom-text">
+                <h1>welcom to <span>fitness GYM</span> </h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat ullam nesciunt nemo a</p>
+            </div>
+        </div>
+    </header>
+    <!--\\\\\\\\\\\\\\\\\ end header \\\\\\\\\\\\\\\-->
+    <!-- ============== start about section  =========== -->
+    <section id="about">
+        <div class="container">
+            <div class="about-us col-12">
+                <div class="info-box-about">
+                    <h2 class="section-header ">about us :</h2>
+                    <div class="line-header"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptatem libero, provident
+                        iusto sit temporibus. Nesciunt, eveniet vitae molestias obcaecati totam magni nemo in, deleniti
+                        saepe maiores, tempora quisquam iste?</p>
+                </div>
+                <div class="img-box-about">
+                    <div class="show-img"></div>
+                    <img src="images/img-box-about.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //////////////// end about section  ////////////////=-->
+    <!-- start our skills section -->
+    <section id="our-skills">
+        <div class="skills ">
+            <div class="container">
+                <h2 class="section-header text-center">our skills : </h2>
+                <div class="line-header mx-auto"></div>
+                <div class="skills-box row">
+                    <div class="skill-name col-12 col-sm-4 col-md-3">body building</div>
+                    <div class="progress col-12 col-sm-8 col-md-9">
+                        <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+                            aria-valuenow="" aria-valuemin="0%" aria-valuemax="100" data-progress="90%">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-box row">
+                    <div class="skill-name col-12 col-sm-4 col-md-3">building body muscles</div>
+                    <div class="progress col-12 col-sm-8 col-md-9">
+                        <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+                            aria-valuenow="" aria-valuemin="0%" aria-valuemax="100" data-progress="80%">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-box row">
+                    <div class="skill-name col-12 col-sm-4 col-md-3">fit ness</div>
+                    <div class="progress col-12 col-sm-8 col-md-9">
+                        <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+                            aria-valuenow="" aria-valuemin="0%" aria-valuemax="100" data-progress="95%">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-box row">
+                    <div class="skill-name col-12 col-sm-4 col-md-3">helping to balance the body</div>
+                    <div class="progress  col-12 col-sm-8 col-md-9">
+                        <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+                            aria-valuenow="" aria-valuemin="0%" aria-valuemax="100" data-progress="75%">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end our skills section -->
+    <!-- start our gallery -->
+    <section id="our-gallery">
+        <div class="gallery">
+            <div class="container">
+                <h2 class="text-center section-header">our gallery</h2>
+                <div class="line-header mx-auto mb-5"></div>
+                <div class="imgs-box-gallery text-center">
+                    <img src="images/gallery01.jpeg" alt="leg practice">
+                    <img src="images/gallery02.jpeg" alt="sholder and back practice">
+                    <img src="images/gallery03.jpeg" alt="arm practice">
+                    <img src="images/gallery04.jpeg" alt="photo for trainer">
+                    <img src="images/gallery05.jpeg" alt="one fo our clients">
+                    <img src="images/gallery06.jpeg" alt="running practice">
+                    <img src="images/gallery07.jpeg" alt="arm and sholder practice">
+                    <img src="images/gallery08.jpeg" alt="woman is running">
+                    <img src="images/gallery09.jpeg" alt="kick boxing">
+                    <img src="images/gallery10.jpeg" alt="some clients play yoga">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end our gallery -->
+    <!-- start time line section -->
+
+    <section id="timeline">
+        <div class="timeline">
+            <div class="container">
+                <div class="timeline-content">
+                    <div class="year">2024</div>
+                    <div class="left">
+                        <div class="content">
+                            <h3 class="section-header">our heading</h3>
+                            <div class="line-header"></div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A quia eos qui temporibus
+                                repellat reiciendis odio porro, tenetur veniam accusantium voluptas, est similique, nam
+                                ut culpa at omnis suscipit corporis!</p>
+                        </div>
+                    </div>
+                    <div class="clear-fix"></div>
+                    <div class="right">
+                        <div class="content">
+                            <h3 class="section-header">our heading</h3>
+                            <div class="line-header"></div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A quia eos qui temporibus
+                                repellat reiciendis odio porro, tenetur veniam accusantium voluptas, est similique, nam
+                                ut culpa at omnis suscipit corporis!</p>
+                        </div>
+                    </div>
+                    <div class="clear-fix"></div>
+                    <div class="year">2023</div>
+                    <div class="left">
+                        <div class="content">
+                            <h3 class="section-header">our heading</h3>
+                            <div class="line-header"></div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A quia eos qui temporibus
+                                repellat reiciendis odio porro, tenetur veniam accusantium voluptas, est similique, nam
+                                ut culpa at omnis suscipit corporis!</p>
+                        </div>
+                    </div>
+                    <div class="clear-fix"></div>
+                    <div class="right">
+                        <div class="content">
+                            <h3 class="section-header">our heading</h3>
+                            <div class="line-header"></div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A quia eos qui temporibus
+                                repellat reiciendis odio porro, tenetur veniam accusantium voluptas, est similique, nam
+                                ut culpa at omnis suscipit corporis!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="clear-fix"></div>
+                    <div class="end-timeline"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end time line section -->
+    <!-- start our featurse section -->
+    <section id="featurse">
+        <div class="featurse">
+            <h2 class="section-header text-center">our featurse</h2>
+            <div class="line-header mx-auto"></div>
+            <div class="container ">
+                <div class="feat-box">
+                    <img src="images/icon00.png" alt="">
+                    <h4>title featurse</h4>
+                    <p>we are the pest GYM to produce the training and good at helping body</p>
+                </div>
+                <div class="feat-box">
+                    <img src="images/icon01.png" alt="">
+                    <h4>title featurse</h4>
+                    <p>we are the pest GYM to produce the training and good at helping body</p>
+                </div>
+                <div class="feat-box">
+                    <img src="images/icon02.png" alt="">
+                    <h4>title featurse</h4>
+                    <p>we are the pest GYM to produce the training and good at helping body</p>
+                </div>
+                <div class="feat-box">
+                    <img src="images/icon03.png" alt="">
+                    <h4>title featurse</h4>
+                    <p>we are the pest GYM to produce the training and good at helping body</p>
+                </div>
+                <div class="feat-box">
+                    <img src="images/icon04.png" alt="">
+                    <h4>title featurse</h4>
+                    <p>we are the pest GYM to produce the training and good at helping body</p>
+                </div>
+                <div class="feat-box">
+                    <img src="images/icon05.png" alt="">
+                    <h4>title featurse</h4>
+                    <p>we are the pest GYM to produce the training and good at helping body</p>
+                </div>
+                <div class="clear-fix"></div>
+            </div>
+        </div>
+    </section>
+    <!-- end our featurse section -->
+    <!-- start testimoials section -->
+    <section id="testimonials">
+        <div class="testimonials">
+            <div class="container">
+                <h2 class="section-header">testimonials</h2>
+                <div class="line-header"></div>
+                <div class="ts-box">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis esse temporibus est corrupti
+                        obcaecati quidem fuga ut</p>
+                    <div class="person-info">
+                        <img src="images/ts-00.jpg" height="80" width="80" alt="">
+                        <h4>taha hussein</h4>
+                        <p>front end developer</p>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis esse temporibus est corrupti
+                        obcaecati quidem fuga ut</p>
+                    <div class="person-info">
+                        <img src="images/ts-01.jpg" height="80" width="80" alt="">
+                        <h4>aly reda</h4>
+                        <p>back end developer</p>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis esse temporibus est corrupti
+                        obcaecati quidem fuga ut</p>
+                    <div class="person-info">
+                        <img src="images/ts-02.jpg" height="80" width="80" alt="">
+                        <h4>salim sayd</h4>
+                        <p>front end senior</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clear-fix"></div>
+        </div>
+    </section>
+    <!-- end testimoials section -->
+    <!-- start contact section  -->
+    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route">
+        <div class="overlay-mf"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="contact-mf">
+                        <div id="contact" class="box-shadow-full">
+                            <div class="row">
+                                <div class="col-md-7 col-sm-12">
+                                    <div class="title-box-2">
+                                        <h5 class="title-left">
+                                            Send Message Us
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <form action="forms/contact.php" method="post" role="form"
+                                            class="php-email-form">
+                                            <div class="row">
+                                                <div class="col-md-12 mb-3">
+                                                    <div class="form-group">
+                                                        <input type="text" name="name" class="form-control" id="name"
+                                                            placeholder="Your Name" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12 mb-3">
+                                                    <div class="form-group">
+                                                        <input type="email" class="form-control" name="email" id="email"
+                                                            placeholder="Your Email" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12 mb-3">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="subject"
+                                                            id="subject" placeholder="Subject" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <textarea class="form-control" name="message" rows="5"
+                                                            placeholder="Message" required></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12 text-center mt-3">
+                                                    <button type="submit" class="btn btn-primary ">Send Message</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 col-sm-12">
+                                    <div class="title-box-2 pt-4 pt-md-0">
+                                        <h5 class="title-left">
+                                            contact
+                                        </h5>
+                                    </div>
+                                    <div class="more-info">
+                                        <ul class="list-ico">
+                                            <li><span class="fas fa-map-marker-alt"></span>matay - elminya - egypt</li>
+                                            <li><span class="fas fa-phone"></span> 01116124061</li>
+                                            <li><span class="fas fa-envelope"></span> tahacapoo17@gmail.com</li>
+                                        </ul>
+                                    </div>
+                                    <div class="socials">
+                                        <ul>
+                                            <li><a href=""><span class="ico-circle"><i
+                                                            class="fab fa-facebook"></i></span></a></li>
+                                            <li><a href=""><span class="ico-circle"><i
+                                                            class="fab fa-instagram"></i></span></a></li>
+                                            <li><a href=""><span class="ico-circle"><i
+                                                            class="fab fa-twitter"></i></span></a></li>
+                                            <li><a href=""><span class="ico-circle"><i
+                                                            class="fab fa-linkedin"></i></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end contact section  -->
+    <footer>
+
+        <div class="footer">
+            created by taha hussein
+        </div>
+    </footer>
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/master.js"></script>
+</body>
+
+</html>
